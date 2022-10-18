@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylecont.css">
+    <title>contatos</title>
+
+</head>
+
+<body>
+    <div class="background">
+        <header>
+            <div id="logomin">
+                <img src="logogdev.png">
+            </div>
+            <div id="logofundo">
+                <img src="logogdev.png">
+            </div>
+            <!--logoprinc-->
+
+            <div class="cabeçalho-link">
+                <li>
+                    <a href="C:\Users\Gigabyte\Documents\portifólio\teste1\index.html" type="button"
+                        onclick="inicio1()">Início</a>
+                </li>
+                <li>
+                    <a href="https://web.whatsapp.com/send?phone=5521996283590" target="_blank"
+                        type="button">whatsapp</a>
+                </li>
+        </header>
+        <section>
+            <h1>Formulário de Contato</h1>
+        </section>
+        <form action="https://formsubmit.co/rbgeofrance@gmail.com" method="POST" class="form">
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name" required />
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required />
+            <label for="message">Mensagem</label>
+            <textarea name="message" placeholder="escreva aqui" id="message" required></textarea>
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/teste1/obrigado.html">
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
